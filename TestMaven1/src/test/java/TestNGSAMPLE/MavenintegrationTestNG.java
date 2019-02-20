@@ -30,7 +30,7 @@ driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 driver.findElement(By.xpath("//a[@href='https://plm.3m.com']")).click();
 driver.findElement(By.xpath("//span[@class='ds-coachmark-close']")).click();
-//quit
+
 driver.quit();
 }
 }
